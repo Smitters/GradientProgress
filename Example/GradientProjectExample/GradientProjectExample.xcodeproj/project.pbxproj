@@ -14,8 +14,8 @@
 		10503B781F64153E0067A7A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10503B6F1F64153E0067A7A7 /* Main.storyboard */; };
 		10503B791F64153E0067A7A7 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10503B711F64153E0067A7A7 /* Info.plist */; };
 		10503B7A1F64153E0067A7A7 /* sampleImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 10503B721F64153E0067A7A7 /* sampleImage.png */; };
-		10503B7B1F64153E0067A7A7 /* storyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 10503B731F64153E0067A7A7 /* storyboard.png */; };
 		10503B7C1F64153E0067A7A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10503B741F64153E0067A7A7 /* ViewController.swift */; };
+		10503B811F6416E90067A7A7 /* storyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 10503B801F6416E90067A7A7 /* storyboard.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,8 +27,8 @@
 		10503B701F64153E0067A7A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10503B711F64153E0067A7A7 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10503B721F64153E0067A7A7 /* sampleImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sampleImage.png; sourceTree = "<group>"; };
-		10503B731F64153E0067A7A7 /* storyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyboard.png; sourceTree = "<group>"; };
 		10503B741F64153E0067A7A7 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10503B801F6416E90067A7A7 /* storyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storyboard.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +76,8 @@
 		10503B7E1F64156E0067A7A7 /* storedImages */ = {
 			isa = PBXGroup;
 			children = (
+				10503B801F6416E90067A7A7 /* storyboard.png */,
 				10503B721F64153E0067A7A7 /* sampleImage.png */,
-				10503B731F64153E0067A7A7 /* storyboard.png */,
 			);
 			path = storedImages;
 			sourceTree = "<group>";
@@ -141,10 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10503B811F6416E90067A7A7 /* storyboard.png in Resources */,
 				10503B761F64153E0067A7A7 /* Assets.xcassets in Resources */,
 				10503B781F64153E0067A7A7 /* Main.storyboard in Resources */,
 				10503B771F64153E0067A7A7 /* LaunchScreen.storyboard in Resources */,
-				10503B7B1F64153E0067A7A7 /* storyboard.png in Resources */,
 				10503B791F64153E0067A7A7 /* Info.plist in Resources */,
 				10503B7A1F64153E0067A7A7 /* sampleImage.png in Resources */,
 			);
