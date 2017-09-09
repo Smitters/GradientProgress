@@ -5,7 +5,7 @@ GradientProgress
 ![ios](https://cocoapod-badges.herokuapp.com/p/GradientProgress/badge.png)
 ![GitHub license](https://cocoapod-badges.herokuapp.com/l/GradientProgress/badge.png)
 [![Twitter](https://img.shields.io/badge/contact-@smetankin93-blue.svg?style=flat)](https://twitter.com/smetankin93)
-[![GitHub issues](https://img.shields.io/github/issues/Smitters/GradientProgress .svg?style=flat-square)](https://github.com/Smitters/GradientProgress /issues)
+[![GitHub issues](https://img.shields.io/github/issues/Smitters/GradientProgress.svg?style=flat-square)](https://github.com/Smitters/GradientProgress/issues)
 
 A gradient progress bar (UIProgressView). Inspired by [iOS Style Gradient Progress Bar with Pure CSS/CSS3](http://www.cssscript.com/ios-style-gradient-progress-bar-with-pure-css-css3/).
 
