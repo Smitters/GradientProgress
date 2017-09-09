@@ -17,12 +17,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="vTf-9P-jEa" customClass="GradientProgressBar" customModule="GradientProjectExample" customModuleProvider="target">
-                                <rect key="frame" x="25" y="45" width="325" height="20"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uiq-tK-FGY" customClass="GradientProgressBar" customModule="GradientProgressBar">
+                                <rect key="frame" x="25" y="360" width="325" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="7M3-mR-Svi"/>
+                                    <constraint firstAttribute="height" constant="20" id="fBh-P2-gAD"/>
                                 </constraints>
-                                <color key="progressTintColor" red="0.97683376736111116" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progressCornerRadius">
                                         <real key="value" value="0.0"/>
@@ -32,12 +31,42 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="uiq-tK-FGY" customClass="GradientProgressBar" customModule="GradientProjectExample" customModuleProvider="target">
-                                <rect key="frame" x="25" y="323.5" width="325" height="20"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.75" translatesAutoresizingMaskIntoConstraints="NO" id="1Z8-0X-w8g" customClass="GradientProgressBar" customModule="GradientProjectExample" customModuleProvider="target">
+                                <rect key="frame" x="25" y="480" width="325" height="20"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="20" id="fBh-P2-gAD"/>
+                                    <constraint firstAttribute="height" constant="20" id="9CA-hk-S1M"/>
                                 </constraints>
-                                <color key="progressTintColor" red="0.97683376740000005" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressCornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </progressView>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="KVM-T2-tPZ" customClass="GradientProgressBar" customModule="GradientProjectExample" customModuleProvider="target">
+                                <rect key="frame" x="20" y="600" width="335" height="2"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="progressCornerRadius">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GradientProgress" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K2S-UC-OBH">
+                                <rect key="frame" x="88" y="110" width="199.5" height="30"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="vTf-9P-jEa" customClass="GradientProgressBar" customModule="GradientProjectExample" customModuleProvider="target">
+                                <rect key="frame" x="25" y="240" width="325" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="7M3-mR-Svi"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="progressCornerRadius">
                                         <real key="value" value="0.0"/>
@@ -48,24 +77,37 @@
                                 </userDefinedRuntimeAttributes>
                             </progressView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.054850260416666664" green="0.037841796875" blue="0.1200900607638889" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="K2S-UC-OBH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0vP-1Y-2J0"/>
+                            <constraint firstItem="1Z8-0X-w8g" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="31G-KT-NIA"/>
+                            <constraint firstItem="KVM-T2-tPZ" firstAttribute="top" secondItem="1Z8-0X-w8g" secondAttribute="bottom" constant="100" id="33Y-6q-d00"/>
                             <constraint firstItem="vTf-9P-jEa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="25" id="49F-7z-v2g"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uiq-tK-FGY" secondAttribute="trailing" constant="25" id="7Ga-MF-kgS"/>
-                            <constraint firstItem="vTf-9P-jEa" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="25" id="Iuq-ap-mVk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1Z8-0X-w8g" secondAttribute="trailing" constant="25" id="F3Z-Yl-HoC"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KVM-T2-tPZ" secondAttribute="trailing" constant="20" id="IPO-qq-8Wv"/>
+                            <constraint firstItem="K2S-UC-OBH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="90" id="T0D-ba-MXQ"/>
                             <constraint firstItem="uiq-tK-FGY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="UDO-4X-Ftn"/>
                             <constraint firstAttribute="trailing" secondItem="vTf-9P-jEa" secondAttribute="trailing" constant="25" id="VK9-2K-2Er"/>
-                            <constraint firstItem="uiq-tK-FGY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hfm-rV-Rfe"/>
+                            <constraint firstItem="uiq-tK-FGY" firstAttribute="top" secondItem="vTf-9P-jEa" secondAttribute="bottom" constant="100" id="ZR4-Yx-qOa"/>
+                            <constraint firstItem="vTf-9P-jEa" firstAttribute="top" secondItem="K2S-UC-OBH" secondAttribute="bottom" constant="100" id="cUO-vb-JfO"/>
+                            <constraint firstItem="K2S-UC-OBH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="juu-MX-7QF"/>
+                            <constraint firstItem="KVM-T2-tPZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="mQ3-qI-xLA"/>
+                            <constraint firstItem="1Z8-0X-w8g" firstAttribute="top" secondItem="uiq-tK-FGY" secondAttribute="bottom" constant="100" id="ovB-KK-V2u"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="K2S-UC-OBH" secondAttribute="trailing" id="zck-Vb-Y0p"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="roundedCenterProgressBar" destination="uiq-tK-FGY" id="L3O-Bh-JyG"/>
-                        <outlet property="topGradientBar" destination="vTf-9P-jEa" id="g22-Ht-im4"/>
+                        <outlet property="firstGradientProgress" destination="vTf-9P-jEa" id="0gE-hj-JF7"/>
+                        <outlet property="fourthGradientProgress" destination="KVM-T2-tPZ" id="pnC-br-kHD"/>
+                        <outlet property="secondGradientProgress" destination="uiq-tK-FGY" id="yf0-Kp-HiL"/>
+                        <outlet property="thirdGradientProgress" destination="1Z8-0X-w8g" id="Zl7-4P-psy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
         </scene>
     </scenes>
 </document>
